@@ -194,7 +194,7 @@ def ytdl_download(url, tempdir, bm, **kwargs) -> dict:
 
     hijack = kwargs.get("hijack")
     response = {"status": True, "error": "", "filepath": []}
-    output = pathlib.Path(tempdir, "%(title).70s." + quality +"P.HS.WEB-DL.AAC2.0.H.265-{ _Rᴏʟᴇx_ } WEBDL_PRO_BOT.%(ext)s").as_posix()
+    output = pathlib.Path(tempdir, "%(title).70s." + quality +"P.HS.WEB-DL.AAC2.0.H.265-serials_funda.%(ext)s").as_posix()
     ydl_opts = {
         'progress_hooks': [lambda d: download_hook(d, bm)],
         'outtmpl': output,
