@@ -15,9 +15,9 @@ load_dotenv()
 # general settings
 WORKERS: "int" = int(os.getenv("WORKERS", 100))
 PYRO_WORKERS: "int" = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: "int" = int(os.getenv("APP_ID", 18274091))
-APP_HASH = os.getenv("APP_HASH", "97afe4ab12cb99dab4bed25f768f5bbc")
-TOKEN = os.getenv("TOKEN", "5767492492:AAH9lXCuf0N-e8RpUR-8KlhzbNeHMqLv_bk")
+APP_ID: "int" = int(os.getenv("APP_ID", 8813038))
+APP_HASH = os.getenv("APP_HASH", "780fd96b159baa710dada78ff1621b54")
+TOKEN = os.getenv("TOKEN", "5950846497:AAEIyVMxYGhPLAvUAbPaIENbGke63_KQAKQ")
 
 REDIS = os.getenv("REDIS")
 
@@ -43,7 +43,7 @@ AFD_USER_ID = os.getenv("AFD_USER_ID")
 OWNER = os.getenv("OWNER", "2109516065")
 
 # limitation settings
-AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "2109516065,1823957960,2083503061,1166625664,5492208921")
+AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "399726799,2083503061")
 # membership requires: the format could be username/chat_id of channel or group
 REQUIRED_MEMBERSHIP: "str" = os.getenv("REQUIRED_MEMBERSHIP", False)
 
