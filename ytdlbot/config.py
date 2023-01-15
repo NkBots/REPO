@@ -40,10 +40,10 @@ COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/bennythink"
 COFFEE_TOKEN = os.getenv("COFFEE_TOKEN")
 AFD_TOKEN = os.getenv("AFD_TOKEN")
 AFD_USER_ID = os.getenv("AFD_USER_ID")
-OWNER = os.getenv("OWNER", "2109516065")
+OWNER = os.getenv("OWNER", "5660434162")
 
 # limitation settings
-AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "399726799,2083503061")
+AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "5660434162")
 # membership requires: the format could be username/chat_id of channel or group
 REQUIRED_MEMBERSHIP: "str" = os.getenv("REQUIRED_MEMBERSHIP", False)
 
